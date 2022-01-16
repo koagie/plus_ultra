@@ -1,0 +1,215 @@
+/*
+    GENERAL STYLING
+    ================================================ */
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #949087;
+  font-family: sans-serif;
+  background: #1d2026;
+}
+
+/*
+    COMMON
+    ================================================ */
+p {
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 0 0 10px 10px;
+}
+
+/*
+    HEADER
+    ================================================ */
+header {
+  max-width: 1000px;
+  margin: 2.5rem auto 0;
+  height: 100vh;
+}
+
+.page-title {
+  font-size: 3.75rem;
+  font-family: 'Amatic SC', cursive;
+  margin: 1rem 0;
+  padding-top: 2rem;
+}
+
+.page-desc {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.page-title,
+.page-desc {
+  text-align: center;
+}
+
+/*
+    MAIN VISUAL
+    ================================================ */
+.hero {
+  min-height: 100vh;
+  width: 100%;
+  color: #fff;
+  position: relative;
+}
+
+.hero .hero__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 8%;
+}
+
+.hero .hero__nav .hero__menu {
+  width: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.hero .hero__nav .hero__logo {
+  width: 160px;
+  cursor: pointer;
+}
+
+.hero .hero__nav .hero__ul {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: right;
+}
+
+.hero .hero__nav .hero__ul > li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+
+.hero .hero__nav .hero__ul > li > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero .hero__nav button {
+  background: #efefef;
+  height: 30px;
+  width: 60px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+}
+
+.hero .hero__nav button > span {
+  display: block;
+  background: #999;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  margin-left: 2px;
+  -webkit-transition: background 0.5s, margin-left 0.5s;
+  transition: background 0.5s, margin-left 0.5s;
+}
+
+.hero .active {
+  background: green;
+}
+
+.hero .active .onclick__span {
+  background: #fff;
+  margin-left: 31px;
+}
+
+.hero .lamp-container {
+  position: absolute;
+  top: -20px;
+  left: 22%;
+  width: 200px;
+}
+
+.hero .lamp-container .lamp {
+  width: 100%;
+}
+
+.hero .lamp-container .light {
+  position: absolute;
+  top: 97%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 700px;
+  margin-left: -10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+.hero .lamp-container .on {
+  opacity: 1;
+}
+
+.hero .text-container {
+  max-width: 600px;
+  margin-top: 7%;
+  margin-left: 50%;
+}
+
+.hero .text-container > h1 {
+  font-weight: 400;
+  font-size: 80px;
+}
+
+.hero .text-container > a {
+  text-decoration: none;
+  background: #00986f;
+  padding: 14px 40px;
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+.hero .text-container .control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 150px;
+}
+
+.hero .text-container .control .line {
+  width: 250px;
+  height: 4px;
+  background: #fff;
+  margin: 0 20px;
+  border-radius: 2px;
+}
+
+.hero .text-container .control .line > span {
+  width: 50%;
+  height: 8px;
+  margin-top: -2px;
+  border-radius: 4px;
+  background-color: #00986f;
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */

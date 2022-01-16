@@ -1,0 +1,226 @@
+// header
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    z-index: 200;
+    .header__logo {
+        margin-top: 25px;
+        margin-right: 10px;
+        .logo {
+            &::before {
+                font-family: "Font Awesome 5 Free";
+                content: '\f786';
+                font-weight: 900;
+                padding-right : 5px;/*文字との隙間*/
+                color: #f89174;/*アイコンの色*/
+            }
+        }
+    }
+
+    .nav__left {
+        .nav__upper {
+
+            & > li {
+                display: inline-block;
+            }
+        }
+    }
+
+    .nav__right {
+        .nav__phone-number {
+
+            & > li {
+                display: inline-block;
+            }
+        }
+    }
+
+
+}
+
+//main visual
+.mv {
+    position: relative;
+    background-image: url(../../../public/images/catwork/main_visual.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    z-index: 100;
+    color: #fff;
+    // &::before {
+    //     content: '';
+    //     display: inline-block;
+    //     width: 80%;
+    //     background-position: center;
+    //     object-fit: cover;
+    //     background-image: url(../../../public/images/catwork/main_visual.jpg);
+    // }
+    .mv__logo {
+        text-align: center;
+        &::before {
+            font-family: "Font Awesome 5 Free";
+            content: '\f786';
+            font-weight: 900;
+            color: #f89174;/*アイコンの色*/
+            font-size: 5rem;
+        }
+        font-size: 2rem;
+        position: absolute;
+        top: 43%;
+        left: 40%;
+
+        .mv__logo__words {
+            margin-top: 10px;
+            font-size: 1.5rem;
+        }
+        
+    }
+}
+
+//about
+.about {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+
+    .about__header {
+        padding-left: 33vw;
+        width: 33vw;
+        height: 6vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        & > ul {
+            margin: 0 auto;
+            position: relative;
+            & > li {
+                list-style: none;
+                display: inline;
+            }
+        }
+
+        .logos {
+            color: orange;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .about__title {
+        padding: 50px;
+
+
+        .about__title__en {
+            font-size: 2rem;
+            color: orange;
+        }
+
+        .about__title__ja {
+            font-size: 0.5em;
+            color: grey;
+        }
+    }
+    
+    .about__container {
+        padding: 10px 0px 10vh 0px;
+        display: flex;
+        justify-content: center;
+
+        .about__container-left {
+            padding-right: 150px;
+            height: 20vh;
+            height: 34%;
+        }
+
+        .about__container-right {
+        padding-top: 10px;
+
+        }
+    }
+
+    .about__more {
+        display: inline-block;
+        border: solid;
+        border-color: orange;
+        border-radius: 5px;
+        border-width: 0.1rem;
+        padding: 5px 10px;
+        width: 20vw;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+// infgormation start
+.information {
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px grey;
+    background-color: rgb(242, 242, 242);
+    width: 70%;
+    display: block;
+    margin: 0 auto 80px auto;
+    
+    
+    .information__title-container {
+        padding-top: 50px;
+        text-align: center;
+        .information__title-en {
+            font-size: 2rem;
+            color: orange;
+        }
+        .information__title-ja {
+            padding-top: 5px;
+            font-size: 0.5rem;
+            color: grey;
+        }
+    }
+
+    .information__category {
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        line-height: 1.5rem;
+    }
+
+    .information__links {
+        padding: 30px ;
+        display: flex;
+        justify-content: space-around;
+
+        .information__second-opinion {
+
+            &::before {
+                font-family: "Font Awesome 5 Free";
+                content: '\f0f8';
+                text-align: center;
+            }
+            background-color: #fff; 
+            border: solid;
+            border-color: orange;
+            border-radius: 5px;
+            border-width: 0.1rem;
+            padding: 5px 15px;
+        }
+
+        .information__tooth {
+            &::before {
+                font-family: "Font Awesome 5 Free";
+                content: '\f0f8';
+                text-align: center;
+            }
+            background-color: #fff; 
+            border: solid;
+            border-color: orange;
+            border-radius: 5px;
+            border-width: 0.1rem;
+            padding: 5px 15px;
+        }
+    }
+    
+
+}
