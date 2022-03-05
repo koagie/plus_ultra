@@ -14,4 +14,8 @@ class SpaController extends Controller
     public function index() {
         return view('spa.index');
     }
+
+    public function portfolio() {
+        return view('spa.portfolio');
+    }
 }

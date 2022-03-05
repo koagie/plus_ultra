@@ -25,6 +25,11 @@ class PostsController extends Controller
         return view('posts.glassmorphism');
     }
 
+    public function portfolio() 
+    {
+        return view('posts.portfolio');
+    }
+
     public function top()
     {
         $posts = Post::latest()->paginate(10);

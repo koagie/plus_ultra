@@ -53,6 +53,9 @@ Route::group(['middleware' => 'auth'], function() {
         //single page appのtop画面
         Route::get('/spa', [PostsController::class, 'index_spa'])->name('spa.index');
         Route::post('/spa', [PostsController::class, 'index_spa'])->name('spa.index');
+        Route::get('/spa_portfolio', [PostsController::class, 'portfolio'])->name('spa.portfolio');
+        Route::post('/spa_portfolio', [PostsController::class, 'portfolio'])->name('spa.portfolio');
+        
     });
 
 

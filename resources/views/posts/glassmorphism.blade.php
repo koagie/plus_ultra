@@ -227,7 +227,7 @@
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum fugit sint voluptatum saepe voluptate vero? Illum placeat voluptatem quaerat? Animi laborum ratione, atque aspernatur esse libero voluptas modi distinctio adipisci.
                     </p>
-                    <a href="https://koagiesmark.tech/?p=27">Read More</a>
+                    <a href="https://kogiblo.vercel.app/">Read More</a>
                 </div>
             </div>
             <div class="card">
@@ -237,7 +237,7 @@
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum fugit sint voluptatum saepe voluptate vero? Illum placeat voluptatem quaerat? Animi laborum ratione, atque aspernatur esse libero voluptas modi distinctio adipisci.
                     </p>
-                    <a href="#">Read More</a>
+                    <a href="https://kogiblo.vercel.app/">Read More</a>
                 </div>
             </div>
             <div class="card">
@@ -247,7 +247,7 @@
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum fugit sint voluptatum saepe voluptate vero? Illum placeat voluptatem quaerat? Animi laborum ratione, atque aspernatur esse libero voluptas modi distinctio adipisci.
                     </p>
-                    <a href="#">Read More</a>
+                    <a href="https://kogiblo.vercel.app/">Read More</a>
                 </div>
             </div>
         </div>
